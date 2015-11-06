@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
+  </head>
+  <body>
+    <!--BEGIN OFF CANVAS NAVIGATION-->  
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+            <nav class="tab-bar hide-for-medium-up">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+                </section> 
+            </nav>
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a>
+                        <ul>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Wraps</a></li>  
+                            <li><a href="#">Desserts</a></li>  
+                        </ul></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Contact</a></li>  
+                </ul>
+            </aside> 
+            <a class="exit-off-canvas-class"></a>
+        <!--END OFF CANVAS NAVIGATION-->
+        <!--BEGIN NORMAL NAVIGATION-->
+            <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#"></a></h1>
+                </li>
+                
+            </ul>
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">    
+                        <li><a href="#">Home</a></li>
+                        <li class="has-dropdown"><a href="#">Menu</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Drinks</a></li>
+                                <li><a href="#">Wraps</a></li>  
+                                <li><a href="#">Desserts</a></li>  
+                            </ul></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Contact</a></li>  
+                    </ul>
+                </section>    
+            </nav> 
+        <!--END NORMAL NAVIGATION-->    
+            
+    <header class="row">
+      <div class="large-3 columns">
+        <img src="images/logo.png" alt="The Squeeze">
+      </div>
+      <div class="large-9 columns">
+        <h2>The Squeeze</h2>
+        <h3>Juice Bar and Cafe</h3>
+        <h4>1234 Grove Ln, Orlando, FL 28544</h4>  
+      </div>
+    </header>
+            
+    <section class="body">        
+    <div class="row">
+      <div class="large-offset-3 large-9 columns">
+        <div class="your-class">
+          <div><img src="images/Chandlerpic.jpg" alt="containers"></div>
+          <div><p>2</p></div>
+          <div><p>3</p></div>
+        </div>  
+      </div>
+    </div>
+    <div class="row">
+      <article class="medium-9 medium-offset-1 medium-push-2 columns">
+        <h2>Be part of the community</h2>
+        <p><img src="img/sfroom.jpg" class="right">Nestled between a yoga studio and a bakery, on a quaint street in this community-centered neighborhood, is the 40-room, modern-themed, Landon Hotel, with a state of the art massage studio.</p>
+        <p>The Landon Massage Center is an internationally renowned center for massage therapy and holistic healing. Guests of the Bernal Heights Landon are entitled to a free massage during their stay.</p>
+        <p>The Bernal Heights Landon also functions as a gathering place for many of the community’s activities and calls to activism. It seems that no one can leave the hotel untouched by the sense of community, peace, and well-being.</p>
+        <ul class="small-block-grid-2 large-block-grid-4">
+          <li><img src="img/sfmarket.jpg" alt="Farmer's market. "></li>
+          <li><img src="img/sfrocks.jpg" alt="Hot rock massage. "></li>
+          <li><img src="img/sfbike.jpg" alt="Biking in San Francisco. "></li>
+          <li><img src="img/sfcafe.jpg" alt="Coffee at a cafe. "></li>
+        </ul>
+      </article>
+      </section>    
+      <aside class="medium-2 medium-pull-10 columns topspace">
+        <h3>Facilities</h3>
+        <ul>
+          <li>40 Modern Rooms</li>
+          <li>4 Executive Suites</li>
+          <li>24-Hour Dining Room</li>
+          <li>Business Center</li>
+          <li>Fitness Center</li>
+          <li>Massage Center</li>
+        </ul>
+        <h3>Amenities</h3>
+        <ul>
+          <li>Free Wireless Internet</li>
+          <li>Pets Allowed</li>
+          <li>Luxurious Bedding</li>
+          <li>Daily Maid Service</li>
+          <li>Laundry &amp; Dry Cleaning Service</li>
+          <li>Concierge Service</li>
+          <li>Express Checkout</li>
+          <li>24-Hour Security</li>
+        </ul>
+        <h3>Local Sights</h3>
+        <ul>
+          <li>Bernal Hill Park</li>
+          <li>San Francisco Public Library</li>
+          <li>Alemany Farmers’ Market</li>
+          <li>Portrero Hill</li>
+          <li>Mission District</li>
+          <li>Unique Bookstores </li>
+          <li>Bakeries &amp; Coffee Houses</li>
+        </ul>
+      </aside>
+     </div> <!--end inner wrap-->
+    </div> <!--end off canvas wrap-->    
+</div>
+    
+    <script src="js/app.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>  
+    <script type="text/javascript" src="slick/slick.min.js"></script>  
+      
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+</script>
+  </body>
+</html>

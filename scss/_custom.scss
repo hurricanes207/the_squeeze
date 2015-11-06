@@ -1,7 +1,13 @@
 // custom scss //
 
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 footer {
     padding-left: 50px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -22,9 +28,40 @@ h2 {
     text-align: center;
 }
 
+.small-6 {
+    padding-left: 100px;
+}
+
 .your-class {
     width: 70%;
     text-align: center;
 }
+
+.small-8 {
+    padding-top: 10px;
+}
+
+.small-8 img {
+    width: 75%;
+}
+
+.small-10 {
+    padding-top: 10px;
+}
+
+.small-10 img {
+    width: 65%;
+}
+
+.small-4 {
+     padding-bottom: 10px;
+}
+
+.small-2 {
+    padding-right: 50px;
+    text-align: center;
+}
+
+
 
 

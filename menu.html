@@ -10,6 +10,20 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
   </head>
+    
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
   <body>
     <!--BEGIN OFF CANVAS NAVIGATION-->  
     <div class="off-canvas-wrap" data-offcanvas>
@@ -116,7 +130,7 @@
        <div class="row">
           <div class="small-2 large-4 columns"><h4>Phone: (245) 367-5987</h4></div>
           <div class="small-2 large-4 columns"><img src="images/black.png" alt="shop name"></div>
-          <div class="small-2 large-4 columns"><p>google map</p></div>
+          <div class="small-2 large-4 columns"><div id="googleMap" style="width:200px;height:200px;"></div></div>
         </div>
     </footer>    
      </div> <!--end inner wrap-->
